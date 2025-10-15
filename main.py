@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from typing import Dict, Any
 
 # --- IMPORTANT: UPDATE THIS WITH YOUR RASPBERRY PI's IP ADDRESS ---
-ROBOT_BRIDGE_URL = "ws://192.168.1.123:9090"
+ROBOT_BRIDGE_URL = "ws://100.98.40.61:9090"
 
 # --- Connection Manager for Browser Clients ---
 class ConnectionManager:
